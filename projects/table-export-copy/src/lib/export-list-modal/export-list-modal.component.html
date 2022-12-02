@@ -1,0 +1,6 @@
+<mat-action-list>
+    <button [style.display]="config.includes(constants.EXPORT_TABLE) ? 'block': 'none'" mat-list-item (click)="handleClick(constants.EXPORT_TABLE)">
+        Export Table </button>
+    <button [style.display]="config.includes(constants.COPY_TABLE)  ? 'block': 'none'" mat-list-item (click)="handleClick(constants.COPY_TABLE)">
+        Copy Table </button>
+</mat-action-list>
