@@ -21,7 +21,7 @@ export class TableExportCopyDirective {
     /** FUNCTION TO CREATE BUTTON AND RETURNING THE ELEMENT */
     let { divTag, optionButton } = this.createElements() 
     try {
-      console.log("***Generating button for "+this.exportConfig.buttonElementID+"***");
+      // console.log("***Generating button for "+this.exportConfig.buttonElementID+"***");
       /** STORING THE BUTTON ELEMENT FROM EXPORTCONFIG */
       let parent = this.ele.nativeElement.querySelector(this.exportConfig.buttonElementID)
       /** APPENDING PARENT DIV TAG TO HEADER TAG */
@@ -68,7 +68,6 @@ export class TableExportCopyDirective {
         panelClass: "export-option-cls"
       })
       dialogRef.afterClosed().subscribe(result => {
-        // console.log(`Dialog result: ${result}`);
         let response: responseConfig = {status:'',operation:'',message:''}
         switch (result) {
           case constants.COPY_TABLE:

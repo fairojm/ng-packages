@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "Package to generate button for export and copy table",
   "author": "Mohamed Fairoj",
-  "homepage": "https://github.com/fairojm/ng-packages/",
+  "homepage": "https://github.com/fairojm/ng-packages/tree/master/projects/table-export-copy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fairojm/ng-packages"
+    "url": "https://github.com/fairojm/ng-packages/tree/master/projects/table-export-copy"
   },
   "peerDependencies": {
     "@angular/common": "^14.2.0",

@@ -4,6 +4,11 @@ This Angular package is to make a button in given element and creates an option 
 
 &nbsp;
 
+Example
+
+https://github.com/fairojm/table-export-copy-example
+
+
 ## Getting Started
 
 ```

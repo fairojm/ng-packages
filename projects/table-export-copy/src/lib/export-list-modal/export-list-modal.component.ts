@@ -1,11 +1,11 @@
-import { Component, ElementRef, Inject, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogConfig, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import constants from '../excel-export-constants';
 
 @Component({
   selector: 'app-export-list-modal',
   templateUrl: './export-list-modal.component.html',
-  // styleUrls: ['./export-list-modal.component.scss']
+  styleUrls: ['./export-list-modal.component.css']
 })
 export class ExportListModalComponent implements OnInit {
   private positionRelativeToElement: HTMLElement
@@ -20,11 +20,9 @@ export class ExportListModalComponent implements OnInit {
   ngOnInit(): void {
     const matDialogConfig = new MatDialogConfig()
     const rect: DOMRect = this.positionRelativeToElement.getBoundingClientRect()
-    // console.log(rect, window.screen.width)
     let screenWidth = window.screen.width
     var percentage = ( screenWidth - rect.right ) /screenWidth
-    // console.log("per",percentage)
-    matDialogConfig.position = { right: `${rect.right}px`, left: `${rect.left - 100}px`, top: `${rect.top + 30}px`, bottom: `${rect.bottom}px` }
+    matDialogConfig.position = { right: `${rect.right}px`, left: `${rect.left - 105}px`, top: `${rect.top + 30}px`, bottom: `${rect.bottom}px` }
     this.dialogRef.updatePosition(matDialogConfig.position)
   }
 

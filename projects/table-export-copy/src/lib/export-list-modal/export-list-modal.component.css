@@ -1,0 +1,4 @@
+::ng-deep .export-option-cls > .mat-dialog-container {
+    padding: 4px !important;
+    margin-right: 2px;
+}

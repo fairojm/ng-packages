@@ -1,6 +1,6 @@
 import { ElementRef, Injectable } from '@angular/core';
 import * as XLSX from 'xlsx'
-import { MatSnackBar, MatSnackBarConfig } from "@angular/material/snack-bar";
+import { MatSnackBar } from "@angular/material/snack-bar";
 import constants from './excel-export-constants';
 import { responseConfig } from './table-export-copy.directive';
 
