@@ -1,6 +1,6 @@
 {
   "name": "table-export-copy",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Package to generate button for export and copy table",
   "author": "Mohamed Fairoj",
   "homepage": "https://github.com/fairojm/ng-packages/tree/master/projects/table-export-copy",
@@ -12,7 +12,8 @@
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0",
     "@angular/material": "^13.3.9",
-    "material-icons": "^1.12.2"
+    "material-icons": "^1.12.2",
+    "xlsx": "^0.18.5"
   },
   "dependencies": {
     "tslib": "^2.3.0"

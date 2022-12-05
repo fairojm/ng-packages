@@ -12,7 +12,7 @@ https://github.com/fairojm/table-export-copy-example
 ## Getting Started
 
 ```
-npm install --save table-export-copy
+npm install --save table-export-copy xlsx
 ```
 
 If angular material is not installed in your project. Install it.
